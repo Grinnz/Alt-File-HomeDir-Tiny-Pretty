@@ -1,5 +1,5 @@
 {
-   "abstract" : "Alternative way to install File::HomeDir::Tiny",
+   "abstract" : "File::HomeDir::Tiny but with prettier code",
    "author" : [
       "Dan Book <dbook@cpan.org>"
    ],

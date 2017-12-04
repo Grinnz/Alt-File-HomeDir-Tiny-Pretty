@@ -9,9 +9,11 @@ our $VERSION = '0.001';
 
 =head1 NAME
 
-Alt::File::HomeDir::Tiny::Pretty - Alternative way to install File::HomeDir::Tiny
+Alt::File::HomeDir::Tiny::Pretty - File::HomeDir::Tiny but with prettier code
 
 =head1 DESCRIPTION
+
+See L<File::HomeDir::Tiny>.
 
 =head1 BUGS
 
@@ -21,9 +23,11 @@ Report any issues on the public bugtracker.
 
 Dan Book <dbook@cpan.org>
 
+Original code by Father Chrysostomos <sprout [at] cpan [dot] org>
+
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2017 by Dan Book.
+This software is Copyright (c) 2017 Dan Book, 2017 Father Chrysostomos.
 
 This is free software, licensed under:
 
@@ -31,3 +35,4 @@ This is free software, licensed under:
 
 =head1 SEE ALSO
 
+L<File::HomeDir::Tiny>
