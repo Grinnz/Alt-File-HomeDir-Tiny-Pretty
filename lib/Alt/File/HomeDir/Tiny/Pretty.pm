@@ -9,9 +9,7 @@ our $VERSION = '0.001';
 
 =head1 NAME
 
-Alt::File::HomeDir::Tiny::Pretty - Module abstract
-
-=head1 SYNOPSIS
+Alt::File::HomeDir::Tiny::Pretty - Alternative way to install File::HomeDir::Tiny
 
 =head1 DESCRIPTION
 
