@@ -21,6 +21,9 @@
          "share",
          "t",
          "xt"
+      ],
+      "package" : [
+         "File::HomeDir::Tiny"
       ]
    },
    "prereqs" : {
@@ -57,10 +60,6 @@
    "provides" : {
       "Alt::File::HomeDir::Tiny::Pretty" : {
          "file" : "lib/Alt/File/HomeDir/Tiny/Pretty.pm",
-         "version" : "0.001"
-      },
-      "File::HomeDir::Tiny" : {
-         "file" : "lib/File/HomeDir/Tiny.pm",
          "version" : "0.001"
       }
    },
@@ -491,6 +490,11 @@
          {
             "class" : "Dist::Zilla::Plugin::UploadToCPAN",
             "name" : "@Author::DBOOK/UploadToCPAN",
+            "version" : "6.010"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::MetaNoIndex",
+            "name" : "NoIndexModule",
             "version" : "6.010"
          },
          {
